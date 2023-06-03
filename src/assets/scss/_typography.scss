@@ -6,6 +6,10 @@
     // @apply px-3 py-3 sm:py-5 md:px-5 md:py-8 lg:px-9 xl:px-12;
     @apply py-[3.75rem] px-4 sm:py-[5rem] md:px-5;
   }
+  
+  .brahma-padding {
+    @apply py-20 px-4 sm:py-[5rem] md:px-5;
+  }
   /*
     Display 1 to 3 for Mobile and desktop
   
@@ -73,15 +77,15 @@
 
   /* Body L Bold Open Sans Bold / 700 */
   .mcf-blb {
-    @apply text-lg leading-[1.625rem] text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-lg leading-[1.625rem];
   }
   /*  Body L Italic Open Sans Italic  / 400 */
   .mcf-bli {
-    @apply text-lg leading-[1.625rem] text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-lg leading-[1.625rem];
   }
   /* Body L Hyperlink Open Sans Regular / 400 */
   .mcf-blh {
-    @apply text-lg leading-[1.625rem] text-mcf-primary-600-color;
+    @apply text-mcf-primary-600-color text-lg leading-[1.625rem];
   }
 
   /* Body M Regular Open Sans Regular / 400 */
@@ -91,16 +95,16 @@
 
   /* Body M Bold Open Sans Bold / 700 */
   .mcf-bmb {
-    @apply text-base text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-base;
   }
 
   /* Body M Italic Open Sans Italic / 400 */
   .mcf-bmi {
-    @apply text-base text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-base;
   }
   /* Body M Hyperlink Open Sans Regular / 400 */
   .mcf-bmh {
-    @apply text-base text-mcf-primary-600-color;
+    @apply text-mcf-primary-600-color text-base;
   }
 
   /* Body S Regular Open Sans Regular / 400 */
@@ -110,16 +114,16 @@
 
   /* Body S Bold Open Sans Bold / 700 */
   .mcf-bsb {
-    @apply text-sm text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-sm;
   }
   /* Body S Italic Open Sans Italic / 400 */
   .mcf-bsi {
-    @apply text-sm text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-sm;
   }
 
   /* Body S Hyperlink Open Sans Regular / 400 */
   .mcf-bsh {
-    @apply text-sm text-mcf-primary-600-color;
+    @apply text-mcf-primary-600-color text-sm;
   }
   /* Body XS Regular Open Sans Regular / 400 */
   .mcf-bxr {
@@ -127,11 +131,11 @@
   }
   /* Body XS Bold Open Sans Bold / 700 */
   .mcf-bxb {
-    @apply text-sm leading-[1.125rem] text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-sm leading-[1.125rem];
   }
 
   /* Body XS Bold Open Sans Bold / 700 */
   .mcf-bxi {
-    @apply text-sm leading-[1.125rem] text-mcf-gray-1000-color;
+    @apply text-mcf-gray-1000-color text-sm leading-[1.125rem];
   }
 }
