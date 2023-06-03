@@ -1,5 +1,5 @@
 import Card from "../../src/components/Card";
-import { dataArray } from "./data";
+import {thoughtDataArray as  dataArray } from "../../utils/thought-leadership-data";
 
 const Index = () => {
   return (
