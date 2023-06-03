@@ -1,4 +1,4 @@
-import { siteRoutes } from './sitePaths';
+import { siteRoutes } from '../sitePaths';
 
 export const thoughtDataArray = [
   {
