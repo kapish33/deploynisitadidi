@@ -1,12 +1,18 @@
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 import React from 'react';
 import TaxSavingProHeroimage from '../../assets/images/HeroTaxImage.png';
+import { whileInViewAnimation } from '../../../utils/variants';
 
 const Hero = () => {
   return (
     <section className='body-font text-gray-600'>
       <div className='flex flex-col items-center  md:flex-row'>
-        <div className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
+        <motion.div
+          variants={whileInViewAnimation({ type: 'up' })}
+          initial='initial'
+          whileInView='whileInView'
+          className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
           <Image
             className='rounded object-cover object-center'
             alt='Tax Saving Pro'
@@ -18,9 +24,13 @@ const Hero = () => {
               (max-width: 1200px) 50vw,
               33vw'
           />
-        </div>
+        </motion.div>
         <div className='flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24'>
-          <h1 className='title-font mb-4 text-4xl font-medium leading-tight text-neutral-800 sm:text-5xl'>
+          <motion.h1
+            variants={whileInViewAnimation({ type: 'fadeIn' })}
+            initial='initial'
+            whileInView='whileInView'
+            className='title-font mb-4 text-4xl font-medium leading-tight text-neutral-800 sm:text-5xl'>
             Find Inner Peace with{' '}
             <span className='bg-gradient-to-r from-hero-400 to-green-600 bg-clip-text font-semibold italic text-transparent'>
               Sudarshan Kriya
@@ -29,7 +39,7 @@ const Hero = () => {
             <span className='bg-gradient-to-r from-green-600  to-hero-400 bg-clip-text font-semibold italic text-transparent'>
               Sahaj Samadhi
             </span>
-          </h1>
+          </motion.h1>
 
           <p className='mb-8 leading-relaxed'>
             Discover inner peace and mindfulness with Surat Meditates. Our
@@ -47,16 +57,22 @@ const Hero = () => {
             </button> */}
 
             <div className='hidden sm:block'>
-              <button
+              <motion.button
+                variants={whileInViewAnimation({ type: 'down' })}
+                initial='initial'
+                whileInView='whileInView'
                 className='bottom-nav-buttons m-2 mr-2 px-4'
                 aria-label='Sudarshan Kriya'>
                 Join Sudarshan Kriya
-              </button>
-              <button
+              </motion.button>
+              <motion.button
+                variants={whileInViewAnimation({ type: 'down' })}
+                initial='initial'
+                whileInView='whileInView'
                 className='bottom-nav-buttons m-2 px-4'
                 aria-label='Sahaj Samadhi'>
                 Join Sahaj Samadhi
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
