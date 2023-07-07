@@ -14,11 +14,11 @@ const Hero = () => {
           whileInView='whileInView'
           className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
           <Image
-            className='to-dark-green-800  mx-auto h-96 w-auto  rounded-full border-2 border-hero-400 object-cover object-center'
+            className='to-dark-green-800 mx-auto rounded-full border-2 border-hero-400 object-cover object-center'
             alt='Tax Saving Pro'
             src={TaxSavingProHeroimage}
-            width={'720'}
-            height={'600'}
+            width={'400'}
+            height={'400'}
             priority
             sizes='(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
