@@ -14,7 +14,7 @@ const Hero = () => {
           whileInView='whileInView'
           className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
           <Image
-            className='rounded object-cover object-center'
+            className='to-dark-green-800  mx-auto h-96 w-auto  rounded-full border-2 border-hero-400 object-cover object-center'
             alt='Tax Saving Pro'
             src={TaxSavingProHeroimage}
             width={'720'}
@@ -42,12 +42,13 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p className='mb-8 leading-relaxed'>
-            Discover inner peace and mindfulness with Surat Meditates. Our
-            expert-guided meditation practices include Sudarshan Kriya and Sahaj
-            Samadhi for transformative benefits and deep relaxation. Join our
-            supportive community today and experience the joy and harmony of
-            regular meditation practice
+            Experience the transformative power of meditation with Nisheeta
+            Bajaj. Through expert-guided practices such as Sudarshan Kriya and
+            Sahaj Samadhi, discover inner peace, mindfulness, and deep
+            relaxation. Join our community today and embark on a journey of joy,
+            harmony, and personal growth through regular meditation practice.
           </motion.p>
+
           <div className='flex justify-center'>
             <div className='hidden sm:block'>
               <motion.button

@@ -1,11 +1,12 @@
-export const HOST = 'https://www.suratmeditates.org'; // your domain name
+export const HOST = 'https://www.nisheetabajaj.com'; // your domain name
 
 export const CommonSeo = {
   DEFAULT_TITLE:
-    'Surat Meditates | Guided Meditations and Breathwork Exercises for Inner Peace and Mindfulness',
+    'Nisheeta Bajaj - Executive Coach and Leadership Expert | Empowering CEOs and Business Leaders for Success',
   DEFAULT_DESCRIPTION:
-    'Find inner peace and mindfulness with Surat Meditates - your go-to platform for guided meditations and breathwork exercises. Join our community today to start your journey towards a more peaceful, fulfilling life.',
+    "Discover Nisheeta Bajaj, an esteemed executive coach and leadership expert dedicated to empowering CEOs and business leaders. Join her transformative coaching programs and unlock your true leadership potential for success in today's dynamic business landscape.",
 };
+
 function defaultSeoGenerator(title, description) {
   return {
     title,
@@ -15,15 +16,15 @@ function defaultSeoGenerator(title, description) {
 
 export const SEO = {
   aboutUsSeo: defaultSeoGenerator(
-    'About Surat Meditates - Our Mission and Team',
-    'Learn more about Surat Meditates and our mission to help people find inner peace and mindfulness through guided meditations, Sudarshan Kriya, Sahaj Samadhi, and breathwork exercises. Meet our team of experts and discover how we can support your journey towards a more peaceful, fulfilling life.'
+    'About Nisheeta Bajaj - Executive Coach and Leadership Expert',
+    'Discover Nisheeta Bajaj, an executive coach and leadership expert dedicated to empowering CEOs and business leaders. With extensive experience coaching global CEOs and top teams, Nisheeta helps individuals become versatile, effective, and prepared for larger roles. Explore her unique approach, thought leadership, and cutting-edge strategies for leadership excellence and personal growth.'
   ),
   termsAndConditions: defaultSeoGenerator(
-    'Surat Meditates - Terms and Conditions',
-    'Read our terms and conditions to learn about the guidelines for using Surat Meditates, including practices such as Sudarshan Kriya and Sahaj Samadhi. Discover our policies for user conduct, content, and privacy, as well as our disclaimers and limitations of liability. Use our platform with confidence and peace of mind.'
+    'Nisheeta Bajaj - Terms and Conditions',
+    "Read the terms and conditions of Nisheeta Bajaj's services to understand the guidelines for working with her as an executive coach and leadership expert. Discover the policies for engagements, confidentiality, and professional conduct. Engage in our coaching programs with confidence and clarity."
   ),
   pricing: defaultSeoGenerator(
-    ` Surat Meditates | Art of Living Meditation Courses | Prices & Packages`,
-    `Discover the benefits of meditation with Art of Living's courses in Surat. Our meditation programs can help you reduce stress, improve focus, and find inner peace. Explore our pricing options for group and private sessions. Join us today and experience the power of meditation!`
+    `Nisheeta Bajaj | Executive Coaching Services | Prices & Packages`,
+    `Discover the benefits of executive coaching with Nisheeta Bajaj. Our coaching programs are designed to enhance your leadership skills, drive success, and unlock your full potential. Explore our pricing options for individual and group coaching sessions. Start your transformative journey with Nisheeta today!`
   ),
 };
