@@ -9,15 +9,15 @@ const about = () => {
   return (
     <>
       <NextSeo {...SEO.aboutUsSeo} />
-      <div class='bg-white pb-6 sm:pb-8 lg:pb-12'>
-        <section class='mx-auto max-w-screen-2xl px-4 md:px-8'>
-          <div class='mb-8 flex flex-wrap justify-between md:mb-16'>
-            <div class='mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pt-48 lg:pb-24'>
+      <div className='bg-white pb-6 sm:pb-8 lg:pb-12'>
+        <section className='mx-auto max-w-screen-2xl px-4 md:px-8'>
+          <div className='mb-8 flex flex-wrap justify-between md:mb-16'>
+            <div className='mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pt-48 lg:pb-24'>
               <motion.h1
                 variants={whileInViewAnimation({ type: 'fadeIn' })}
                 initial='initial'
                 whileInView='whileInView'
-                class='bg-gradient-clip-content animate-spin-slow mb-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-5xl font-bold text-transparent md:text-6xl'>
+                className='bg-gradient-clip-content animate-spin-slow mb-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-5xl font-bold text-transparent md:text-6xl'>
                 Nisheeta
                 <br />
                 Bajaj
@@ -27,17 +27,17 @@ const about = () => {
                 variants={whileInViewAnimation({ type: 'left' })}
                 initial='initial'
                 whileInView='whileInView'
-                class='max-w-md leading-relaxed text-gray-500 xl:text-lg'>
+                className='max-w-md leading-relaxed text-gray-500 xl:text-lg'>
                 Empowering CEOs and Business Leaders to Reach Greater Heights
               </motion.p>
             </div>
 
-            <div class='mb-12 flex w-full md:mb-16 lg:w-2/3'>
+            <div className='mb-12 flex w-full md:mb-16 lg:w-2/3'>
               <motion.div
                 variants={whileInViewAnimation({ type: 'fadeIn' })}
                 initial='initial'
                 whileInView='whileInView'
-                class='relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0'>
+                className='relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0'>
                 <Image
                   className='h-full w-full object-cover object-center'
                   alt='Tax Saving Pro'
@@ -55,7 +55,7 @@ const about = () => {
                 variants={whileInViewAnimation({ type: 'right' })}
                 initial='initial'
                 whileInView='whileInView'
-                class='overflow-hidden rounded-lg bg-gray-100 opacity-50 shadow-lg'>
+                className='overflow-hidden rounded-lg bg-gray-100 opacity-50 shadow-lg'>
                 <Image
                   className='h-full w-full object-cover object-center'
                   alt='Tax Saving Pro'
@@ -75,21 +75,21 @@ const about = () => {
             variants={whileInViewAnimation({ type: 'right' })}
             initial='initial'
             whileInView='whileInView'
-            class='flex flex-col justify-center gap-8 pb-4 md:flex-row md:justify-end'>
+            className='flex flex-col justify-center gap-8 pb-4 md:flex-row md:justify-end'>
             {/* <!-- social - start --> */}
-            <div class='flex items-center justify-center gap-4'>
-              <span class='text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base'>
+            <div className='flex items-center justify-center gap-4'>
+              <span className='text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base'>
                 Social
               </span>
-              <span class='h-px w-12 bg-gray-200'></span>
+              <span className='h-px w-12 bg-gray-200'></span>
 
-              <div class='flex gap-4'>
+              <div className='flex gap-4'>
                 <a
                   href='#'
                   target='_blank'
-                  class='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
+                  className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
                   <svg
-                    class='h-5 w-5'
+                    className='h-5 w-5'
                     width='24'
                     height='24'
                     viewBox='0 0 24 24'
@@ -102,9 +102,9 @@ const about = () => {
                 <a
                   href='#'
                   target='_blank'
-                  class='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
+                  className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
                   <svg
-                    class='h-5 w-5'
+                    className='h-5 w-5'
                     width='24'
                     height='24'
                     viewBox='0 0 24 24'
@@ -117,9 +117,9 @@ const about = () => {
                 <a
                   href='#'
                   target='_blank'
-                  class='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
+                  className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'>
                   <svg
-                    class='h-5 w-5'
+                    className='h-5 w-5'
                     width='24'
                     height='24'
                     viewBox='0 0 24 24'
