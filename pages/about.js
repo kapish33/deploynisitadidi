@@ -140,52 +140,82 @@ const about = () => {
             initial='initial'
             whileInView='whileInView'
             className='mb-8 text-lg leading-7 text-gray-600'>
-            Welcome to the world of executive coaching, where I specialize in
-            empowering CEOs and business leaders to reach their full potential.
-            With a proven track record of coaching global CEOs, business owners,
-            and top teams of multinational corporations (MNCs) and Indian
-            business houses, I am dedicated to helping individuals become
-            versatile, effective, and prepared for greater responsibilities in
-            the global, regional, and national arenas.
+            I am an executive coach to CEOs and business leaders globally. Over
+            the last 20+ years I have been deeply passionate about both business
+            coaching and life coaching, as well as the confluence of both: I
+            have developed thought leadership approaches toward rewiring
+            internally, for accelerated success externally.
           </motion.p>
           <motion.p
             variants={whileInViewAnimation({ type: 'left' })}
             initial='initial'
             whileInView='whileInView'
             className='mb-8 text-lg leading-7 text-gray-600'>
-            At the core of my coaching philosophy lies a deep commitment to
-            fostering succession planning, creating robust leadership pipelines,
-            and cultivating a growth-oriented mindset. Whether it's developing a
-            leadership pipeline or addressing broader life coaching needs, I
-            form invaluable coaching partnerships to drive tangible results and
-            lasting transformations.
+            Apart from coaching, I enjoy writing (for HBR and IIM curriculum
+            design). I also address IIM alumni and various groups of CEOs,
+            through the Masterclasses I run, or at fora am invited to speak at.
           </motion.p>
           <motion.p
             variants={whileInViewAnimation({ type: 'left' })}
             initial='initial'
             whileInView='whileInView'
             className='mb-8 text-lg leading-7 text-gray-600'>
-            My advisory and coaching experience is rooted in a unique approach
-            that combines gold-standard methodologies of global leadership
-            effectiveness with consciousness-based leadership practices. Drawing
-            on my prior advisory and strategy consulting experience at renowned
-            firms, I bring a wealth of strategic insights to the table,
-            enriching my coaching engagements.
+            My 24+ year personal interest in meditation and breath-work has
+            exploded into consciousness-based leadership approaches that
+            transform your mind state and give you the ability to truly create
+            impact- at speed.
+          </motion.p>
+        </section>
+
+        <h2>How I got to where I am : </h2>
+        <section className='bg-white'>
+          <motion.p
+            variants={whileInViewAnimation({ type: 'left' })}
+            initial='initial'
+            whileInView='whileInView'
+            className='mb-8 text-lg leading-7 text-gray-600'>
+            I have helped organisations grow, perform, and create value - during
+            my time at Boston Consulting Group (BCG)
           </motion.p>
           <motion.p
             variants={whileInViewAnimation({ type: 'left' })}
             initial='initial'
             whileInView='whileInView'
             className='mb-8 text-lg leading-7 text-gray-600'>
-            Regarded as a thought leader, I have made significant contributions
-            to the field of Leadership Excellence, Energy Leadership, Blocks to
-            Change, Purpose-driven growth, and related areas. My expertise is
-            not only recognized by prestigious institutions, where I have
-            authored curriculum materials, but also by industry professionals
-            and various private forums where I am a sought-after speaker.
-            Additionally, I collaborate with top thought leaders globally and
-            leading management thinkers in India, ensuring I stay at the
-            forefront of cutting-edge approaches in my field.
+            I then developed deep interest in leadership and was fortunate to be
+            among the select pool of people to be groomed in the Hay McClelland
+            center (Harvard’s) gold standard approach to leadership development.
+          </motion.p>
+          <motion.p
+            variants={whileInViewAnimation({ type: 'left' })}
+            initial='initial'
+            whileInView='whileInView'
+            className='mb-8 text-lg leading-7 text-gray-600'>
+            Subsequently, my professional life has been dedicated to coaching
+            CEOs and business leaders, and thought leadership work in this
+            space.
+          </motion.p>
+        </section>
+
+        <h2>Where I come from (personally): </h2>
+        <section className='bg-white'>
+          <motion.p
+            variants={whileInViewAnimation({ type: 'left' })}
+            initial='initial'
+            whileInView='whileInView'
+            className='mb-8 text-lg leading-7 text-gray-600'>
+            I took a year off to study the scriptures in 1998/99 - before an MBA
+            at IIM Bangalore (Asia’s leading business school)
+          </motion.p>
+          <motion.p
+            variants={whileInViewAnimation({ type: 'left' })}
+            initial='initial'
+            whileInView='whileInView'
+            className='mb-8 text-lg leading-7 text-gray-600'>
+            I shuttle between India and Europe: I am presently based in the
+            quaint European countryside in Belgium, married to a Senior Partner
+            and Managing Director at Boston Consulting Group (the firm we met at
+            20+ years ago)
           </motion.p>
         </section>
       </div>
