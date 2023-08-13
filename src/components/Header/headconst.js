@@ -16,20 +16,25 @@ export const headerRoutes = {
       css: 'anchor_nonunderline_mobile',
       name: 'About',
     },
+    // {
+    //   path: landingPagesNav['Thought Leadership'],
+    //   css: 'anchor_nonunderline_mobile',
+    //   name: 'Thought Leadership',
+    // },
+    // {
+    //   path: landingPagesNav['Master classes'],
+    //   css: 'anchor_nonunderline_mobile',
+    //   name: 'Master Classes',
+    // },
+    // {
+    //   path: landingPagesNav['Life Wisdom'],
+    //   css: 'anchor_nonunderline_mobile',
+    //   name: 'Life Wisdom',
+    // },
     {
-      path: landingPagesNav['Thought Leadership'],
+      path: 'https://linktr.ee/nisheetabajaj',
       css: 'anchor_nonunderline_mobile',
-      name: 'Thought Leadership',
-    },
-    {
-      path: landingPagesNav['Master classes'],
-      css: 'anchor_nonunderline_mobile',
-      name: 'Master Classes',
-    },
-    {
-      path: landingPagesNav['Life Wisdom'],
-      css: 'anchor_nonunderline_mobile',
-      name: 'Life Wisdom',
+      name: 'Minfulness workshops',
     },
     {
       path: whatsAppURL(),
@@ -43,20 +48,25 @@ export const headerRoutes = {
       css: 'anchor_pc',
       name: 'About',
     },
+    // {
+    //   path: landingPagesNav['Thought Leadership'],
+    //   css: 'anchor_pc',
+    //   name: 'Thought Leadership',
+    // },
+    // {
+    //   path: landingPagesNav['Master classes'],
+    //   css: 'anchor_pc',
+    //   name: 'Master clasee',
+    // },
+    // {
+    //   path: landingPagesNav['Life Wisdom'],
+    //   css: 'anchor_pc',
+    //   name: 'Life Wisdom',
+    // },
     {
-      path: landingPagesNav['Thought Leadership'],
+      path: 'https://linktr.ee/nisheetabajaj',
       css: 'anchor_pc',
-      name: 'Thought Leadership',
-    },
-    {
-      path: landingPagesNav['Master classes'],
-      css: 'anchor_pc',
-      name: 'Master clasee',
-    },
-    {
-      path: landingPagesNav['Life Wisdom'],
-      css: 'anchor_pc',
-      name: 'Life Wisdom',
+      name: 'Minfulness workshops',
     },
     {
       path: whatsAppURL(),

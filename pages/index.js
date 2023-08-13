@@ -1,11 +1,11 @@
 import Hero from "../src/components/Hero";
-import Stats from "../src/components/Stats";
+// import Stats from "../src/components/Stats";
 
 const index = () => {
   return (
     <>
       <Hero />
-      <Stats />
+      {/* <Stats /> */}
     </>
   );
 };

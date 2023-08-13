@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { headerRoutes } from './headconst';
@@ -27,7 +27,7 @@ function Header() {
           <Link
             href={headerRoutes.homePage.path}
             className='text-2xl font-bold text-gray-800'>
-            <div className='flex h-12 w-12 animate-pulse items-center justify-center rounded-full bg-hero-400'>
+            {/* <div className='flex h-12 w-12 animate-pulse items-center justify-center rounded-full bg-hero-400'>
               <div className='flex h-11 w-11 items-center justify-center rounded-full bg-white'>
                 <Image
                   className='h-10 w-10 rounded-full bg-primary-500 '
@@ -36,7 +36,7 @@ function Header() {
                   priority
                 />
               </div>
-            </div>
+            </div> */}
           </Link>
           <div className='flex items-center'>
             {!showMenu && (
