@@ -167,7 +167,9 @@ const about = () => {
           </motion.p>
         </section>
 
-        <h2>How I got to where I am : </h2>
+        <h2 className='bg-gradient-clip-content animate-spin-slow mb-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-3xl font-bold text-transparent md:text-4xl '>
+          How I got to where I am :{' '}
+        </h2>
         <section className='bg-white'>
           <motion.p
             variants={whileInViewAnimation({ type: 'left' })}
@@ -197,7 +199,9 @@ const about = () => {
           </motion.p>
         </section>
 
-        <h2>Where I come from (personally): </h2>
+        <h2 className='bg-gradient-clip-content animate-spin-slow mb-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-3xl font-bold text-transparent md:text-4xl '>
+          Where I come from (personally):{' '}
+        </h2>
         <section className='bg-white'>
           <motion.p
             variants={whileInViewAnimation({ type: 'left' })}
