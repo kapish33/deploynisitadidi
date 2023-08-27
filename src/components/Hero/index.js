@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import TaxSavingProHeroimage from '../../assets/images/HeroTaxImage.png';
 import { whileInViewAnimation } from '../../../utils/variants';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -49,26 +50,19 @@ const Hero = () => {
             harmony, and personal growth through regular meditation practice.
           </motion.p> */}
 
-          {/* <div className='flex justify-center'>
+          <div className='flex justify-center'>
             <div className='hidden sm:block'>
+              
               <motion.button
-                variants={whileInViewAnimation({ type: 'down' })}
-                initial='initial'
-                whileInView='whileInView'
-                className='bottom-nav-buttons m-2 mr-2 px-4'
-                aria-label='Sudarshan Kriya'>
-                Join Sudarshan Kriya
-              </motion.button>
-              <motion.button
-                variants={whileInViewAnimation({ type: 'down' })}
+                variants={whileInViewAnimation({ type: 'left' })}
                 initial='initial'
                 whileInView='whileInView'
                 className='bottom-nav-buttons m-2 px-4'
                 aria-label='Sahaj Samadhi'>
-                Join Sahaj Samadhi
+                <Link href={'mailto:nisheetabajaj@gmail.com'}>Connect Nisheeta</Link>
               </motion.button>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
