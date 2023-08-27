@@ -8,7 +8,7 @@ const BottomNavigation = () => {
         Join Sudarshan Kriya
       </button> */}
       <button className='bottom-nav-buttons' aria-label='Sahaj Samadhi'>
-      <Link href={'mailto:nisheetabajaj@gmail.com'}>nisheetabajaj@gmail.com</Link>
+      <Link href={'mailto:nisheetabajaj@gmail.com'}>Connect Nisheeta</Link>
       </button>
     </nav>
   );
