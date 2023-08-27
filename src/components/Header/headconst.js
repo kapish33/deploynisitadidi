@@ -34,7 +34,7 @@ export const headerRoutes = {
     {
       path: 'https://linktr.ee/nisheetabajaj',
       css: 'anchor_nonunderline_mobile',
-      name: 'Minfulness workshops',
+      name: 'Mindfulness workshops',
     },
     {
       path: whatsAppURL(),
@@ -66,7 +66,7 @@ export const headerRoutes = {
     {
       path: 'https://linktr.ee/nisheetabajaj',
       css: 'anchor_pc',
-      name: 'Minfulness workshops',
+      name: 'Mindfulness workshops',
     },
     {
       path: whatsAppURL(),

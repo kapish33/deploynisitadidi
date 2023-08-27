@@ -4,7 +4,7 @@ import { Companyname, footerConstRoutes, Slogan } from './footeroConstData';
 
 const Footer = () => {
   return (
-    <footer className='bg bg-neutral-900 pt-6 pb-14 md:py-6'>
+    <footer className='bg bg-neutral-900 pt-6 pb-14 md:py-6 fixed bottom-0 w-full'>
       <div className='container mx-auto px-4'>
         <div className='items-center justify-between md:flex'>
           <div className='md:w-1/3'>
@@ -26,14 +26,14 @@ const Footer = () => {
               Contact Us
             </h3>
             <ul>
-              <li className='mb-2 text-gray-400'>
+              {/* <li className='mb-2 text-gray-400'>
                 <i className='fas fa-map-marker-alt mr-2'></i>123 Street, City
+              </li> */}
+              <li className='mb-2 text-gray-400'>
+                <i className='fas fa-phone-alt mr-2'></i><Link href={'tel:32472802851'} >+32 472 80 28 51</Link>
               </li>
               <li className='mb-2 text-gray-400'>
-                <i className='fas fa-phone-alt mr-2'></i>(123) 456-7890
-              </li>
-              <li className='mb-2 text-gray-400'>
-                <i className='fas fa-envelope mr-2'></i>info@company.com
+                <i className='fas fa-envelope mr-2'></i><Link href={'mailto:nisheetabajaj@gmail.com'}>nisheetabajaj@gmail.com</Link>
               </li>
             </ul>
           </div>

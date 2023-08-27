@@ -33,7 +33,7 @@ const Hero = () => {
             className='title-font mb-4 text-4xl font-medium leading-tight text-neutral-800 sm:text-5xl'>
             executive coach to{' '}
             <span className='bg-gradient-to-r from-hero-400 to-green-600 bg-clip-text font-semibold italic text-transparent'>
-              CEO's and business
+              CEOs and business
             </span>
             <br className='hidden lg:inline-block' /> &amp;{' '}
             <span className='bg-gradient-to-r from-green-600  to-hero-400 bg-clip-text font-semibold italic text-transparent'>
@@ -41,15 +41,15 @@ const Hero = () => {
             </span>
           </motion.h1>
 
-          <motion.p className='mb-8 leading-relaxed'>
+          {/* <motion.p className='mb-8 leading-relaxed'>
             Experience the transformative power of meditation with Nisheeta
             Bajaj. Through expert-guided practices such as Sudarshan Kriya and
             Sahaj Samadhi, discover inner peace, mindfulness, and deep
             relaxation. Join our community today and embark on a journey of joy,
             harmony, and personal growth through regular meditation practice.
-          </motion.p>
+          </motion.p> */}
 
-          <div className='flex justify-center'>
+          {/* <div className='flex justify-center'>
             <div className='hidden sm:block'>
               <motion.button
                 variants={whileInViewAnimation({ type: 'down' })}
@@ -68,7 +68,7 @@ const Hero = () => {
                 Join Sahaj Samadhi
               </motion.button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
