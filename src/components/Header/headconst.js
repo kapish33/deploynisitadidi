@@ -39,7 +39,7 @@ export const headerRoutes = {
     {
       path: whatsAppURL(),
       css: 'anchor_button_mobile',
-      name: 'Master Class',
+      name: 'Upcoming Events',
     },
   ],
   pc: [
@@ -71,7 +71,7 @@ export const headerRoutes = {
     {
       path: whatsAppURL(),
       css: 'anchor_pc_button',
-      name: 'Master Class',
+      name: 'Upcoming Events',
     },
   ],
 };
